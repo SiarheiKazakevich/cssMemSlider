@@ -1,5 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>CSS Slider</title>
+  </head>
+  <body>
+    <div class="slideshow-container">
+      <!-- Радио-кнопки для слайдов -->
+      <input type="radio" name="slider" id="slide1" checked />
+      <input type="radio" name="slider" id="slide2" />
+      <input type="radio" name="slider" id="slide3" />
+      <input type="radio" name="slider" id="slide4" />
+
+      <!-- Слайды -->
+      <div class="slides">
+        <div class="mySlide" id="s1">
+          <div class="numbertext">1 / 4</div>
+          <img src="assets/img1.jpg" alt="Slide 1" />
+          <div class="text">Text one</div>
+        </div>
+        <div class="mySlide" id="s2">
+          <div class="numbertext">2 / 4</div>
+          <img src="assets/img2.jpg" alt="Slide 2" />
+          <div class="text">Text two</div>
+        </div>
+        <div class="mySlide" id="s3">
+          <div class="numbertext">3 / 4</div>
+          <img src="assets/img3.jpg" alt="Slide 3" />
+          <div class="text">Text three</div>
+        </div>
+        <div class="mySlide" id="s4">
+          <div class="numbertext">4 / 4</div>
+          <img src="assets/img4.jpg" alt="Slide 4" />
+          <div class="text">Text four</div>
+        </div>
+      </div>
+
+      <!-- Переключатели (точки) -->
+      <div class="circlbuttons">
+        <label for="slide1" class="dot"></label>
+        <label for="slide2" class="dot"></label>
+        <label for="slide3" class="dot"></label>
+        <label for="slide4" class="dot"></label>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!--<!DOCTYPE html>
+<html lang="en">
 
 <head>
 	<meta charset="UTF-8">
@@ -30,20 +82,20 @@
 			<div class="numbertext">4 / 4</div>
 			<img src="assets/img4.jpg" style="width:100%">
 			<div class="text">Text Four</div>
-		</div>
-		<!--buttons-->
+		</div>-->
+<!--buttons
 		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 		<a class="next" onclick="plusSlides(1)">&#10095;</a>
 	</div>
-	<br>
-	<!--dots/circles-->
+	<br>-->
+<!--dots/circles
 	<div class="circlbuttons">
 		<span class="dot" onclick="currentSlide(1)"></span>
 		<span class="dot" onclick="currentSlide(2)"></span>
 		<span class="dot" onclick="currentSlide(3)"></span>
 		<span class="dot" onclick="currentSlide(4)"></span>
-	</div>
-	<script src="index.js"></script>
+	</div>-->
+<!--<script src="index.js"></script>
 </body>
 
-</html>
+</html>-->
